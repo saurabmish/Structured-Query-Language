@@ -69,12 +69,18 @@ DDL and DML queries in PostgreSQL
 
 ### DBeaver (GUI Client) Configuration:
 
-   1. Open GUI client DBeaver
+   1. Open DBeaver
+
    2. Click on "Database" in the menubar
+
    3. Select option "New Database Connection"
+
    4. Select PostgreSQL
+
    5. Enter the values of "Host", "Database", "User", "Password"
+
    6. Click on "Test Connection ..."
+
    7. Click Finish
 
 ### Environment Commands:
