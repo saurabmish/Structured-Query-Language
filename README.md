@@ -3,7 +3,7 @@
 DDL and DML queries in PostgreSQL
 
 
-# PostgreSQL Setup
+### PostgreSQL Setup
 
   + Install PostgreSQL
 
@@ -18,7 +18,7 @@ DDL and DML queries in PostgreSQL
     `brew cask install dbeaver-community`
 
 
-# PostgreSQL Configuration
+### PostgreSQL Configuration
 
   + Check if postgres service is running:
 
@@ -42,7 +42,7 @@ DDL and DML queries in PostgreSQL
     `/usr/local/opt/postgres/bin/createuser -s postgres`
 
 
-# Environment Setup
+### Environment Setup
 
   + Login to psql as root user:
 
@@ -67,7 +67,7 @@ DDL and DML queries in PostgreSQL
     `\q`
 
 
-# DBeaver (GUI Client) Configuration:
+### DBeaver (GUI Client) Configuration:
 
    1. Open GUI client DBeaver
    2. Click on "Database" in the menubar
@@ -77,9 +77,9 @@ DDL and DML queries in PostgreSQL
    6. Click on "Test Connection ..."
    7. Click Finish
 
-# Environment Commands:
+### Environment Commands:
 
-    In addition to the **Environment Setup** section above, the below commands are used very frequently:
+  In addition to the **Environment Setup** section above, the below commands are used very frequently:
 
   + View postgres users:
 
@@ -113,7 +113,7 @@ DDL and DML queries in PostgreSQL
 
     `\d file_name`
 
-  + Edit (or write) command in your preferred editor: (**NOTE**: Ensure that the $EDITOR variable defined for the shell [bash, zsh, etc.])
+  + Edit (or write) command in your preferred editor: (**NOTE**: Ensure that the `$EDITOR` variable defined for the shell)
 
     `\e`
 
