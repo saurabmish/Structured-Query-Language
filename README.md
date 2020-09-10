@@ -7,7 +7,7 @@ DDL and DML queries in PostgreSQL
 
   + Install PostgreSQL
 
-    `brew install postgres`
+    `brew install postgresql`
 
   + Install OpenJDK for DBeaver:
 
@@ -29,7 +29,7 @@ DDL and DML queries in PostgreSQL
     `pg_ctl -D /usr/local/var/postgres start` `( / stop)`
 
   + **NOTE**:
-  Postgres can also be started automatically (*now* and also after restart):
+  Postgres can also be started automatically:
 
     `brew services start postgresql`
 
@@ -66,6 +66,10 @@ DDL and DML queries in PostgreSQL
 
     `\q`
 
+  + Execute scripts in PostgreSQL:
+
+    `psql DB_USER -h localhost -d DATABASE -f file.sql -a`
+
 
 ### DBeaver (GUI Client) Configuration:
 
@@ -75,13 +79,16 @@ DDL and DML queries in PostgreSQL
 
    3. Select option "New Database Connection"
 
-   4. Select PostgreSQL
+   4. Select "PostgreSQL"
 
-   5. Enter the values of "Host", "Database", "User", "Password"
+   5. Download required drivers
 
-   6. Click on "Test Connection ..."
+   6. Enter the values of "Host", "Database", "User", "Password"
 
-   7. Click Finish
+   7. Click on "Test Connection ..."
+
+   8. Click Finish
+
 
 ### Environment Commands:
 
